@@ -1,7 +1,16 @@
 
+.top_bar{
+	height: 5px;
+	background-color: #C38579;
+}
+
+body{
+	font-family: "Gulim";
+}
+
 .jumbotron{
 	position: relative;
-	background-image: url(../images/top写真_narrow.jpg);
+	background-image: url(../images/6998276.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 
@@ -14,16 +23,17 @@
 
 .row{
 	text-align: center;
+	font-family: "Dotum";
 }
 
-/*
-h1 {
-	position: absolute;
+
+
+h1.company_name{
+	color: brown;		
 }
 
-img{
-	position: absolute;
-	margin: 0;
-	padding: 0;
 
-}*/
+
+p.lead{
+	color: #3F3F3F;
+}
