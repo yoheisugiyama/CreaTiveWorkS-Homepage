@@ -1,0 +1,29 @@
+
+.jumbotron{
+	position: relative;
+	background-image: url(../images/top写真_narrow.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+
+.container{
+	
+}
+
+.row{
+	text-align: center;
+}
+
+/*
+h1 {
+	position: absolute;
+}
+
+img{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+
+}*/
