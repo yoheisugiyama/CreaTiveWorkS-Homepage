@@ -8,11 +8,12 @@ body{
 	font-family: "Gulim";
 }
 
-.jumbotron{
-	position: relative;
+.main_image{
+	
 	background-image: url(../images/6998276.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
+	height: 300px;
 
 }
 
@@ -21,19 +22,41 @@ body{
 	
 }
 
-.row{
-	text-align: center;
-	font-family: "Dotum";
-}
-
 
 
 h1.company_name{
-	color: brown;		
+	color: brown;
+	margin-top: 60px;
+	margin-left: 50px;
+	font-size: 350%;
 }
 
 
 
-p.lead{
+p.catch_copy{
 	color: #3F3F3F;
+	margin-left: 80px;
+	font-size: 1.5em;
 }
+
+
+.row{
+	text-align: center;
+	font-family: "Dotum";
+	background-color: rgba(185,175,170,0.03);
+	
+}
+
+
+.row>h1{
+	font-size: 200%;
+	color:brown;
+	
+}
+
+
+.row>h1:hover {
+	text-decoration: underline;
+}
+
+
